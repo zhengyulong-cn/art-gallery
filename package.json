@@ -10,7 +10,10 @@
     "lint": "eslint --max-warnings 0 ./**/*.{vue,ts,tsx} --fix"
   },
   "dependencies": {
-    "vue": "^3.2.37"
+    "@vueuse/core": "^9.2.0",
+    "axios": "^0.27.2",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.5"
   },
   "devDependencies": {
     "@types/node": "^18.6.3",
