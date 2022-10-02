@@ -13,7 +13,6 @@ const getCategoryData = () => {
   getCategory().then(data => {
     console.log(data);
     categoryData.value = data;
-    console.log('object', categoryData);
   }).catch(err => {
     console.error(err);
   })
