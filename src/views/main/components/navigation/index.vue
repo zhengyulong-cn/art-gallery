@@ -11,7 +11,7 @@ import type { ICategoryItem } from '@/api/category';
 const categoryData: Ref<ICategoryItem[]> = ref([]);
 const getCategoryData = () => {
   getCategory().then(data => {
-    console.log(data);
+    console.log(data, "d");
     categoryData.value = data;
   }).catch(err => {
     console.error(err);
